@@ -6,7 +6,7 @@ import { Product } from '../../../payload/payload-types'
 
 import classes from './index.module.scss'
 
-export const priceFromJSON = (priceJSON: string, quantity: number = 1, raw?: boolean): string => {
+export const priceFromJSON = (priceJSON: string, quantity = 1, raw?: boolean): string => {
   let price = ''
 
   if (priceJSON) {

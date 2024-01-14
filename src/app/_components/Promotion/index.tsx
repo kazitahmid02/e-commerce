@@ -1,4 +1,3 @@
-'use client'
 import React, { useEffect, useState } from 'react'
 
 import classes from './index.module.scss'
@@ -35,7 +34,7 @@ const Promotion = () => {
     return () => {
       clearInterval(timerInterval) // Cleanup the interval when the component unmounts.
     }
-  }, [])
+  }, [targetDate]) // Add 'targetDate' to the dependency array
 
   return (
     <section className={classes.promotion}>
