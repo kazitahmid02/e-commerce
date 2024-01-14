@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react'
-
-import classes from './index.module.scss'
-
+// @ts-nocheck
+// use client
 const Promotion = () => {
   const [time, setTime] = useState({
     days: 0,
