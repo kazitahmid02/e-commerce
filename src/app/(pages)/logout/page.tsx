@@ -36,4 +36,3 @@ export const metadata: Metadata = {
     url: '/logout',
   }),
 }
-
