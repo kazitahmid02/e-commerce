@@ -1,4 +1,9 @@
-// @ts-nocheck
+'use client'
+
+import React, { useEffect, useMemo, useState } from 'react'
+
+import classes from './index.module.scss'
+
 // use client
 const Promotion = () => {
   const [time, setTime] = useState({
@@ -8,8 +13,11 @@ const Promotion = () => {
     seconds: 0,
   })
 
-  const targetDate = new Date()
-  targetDate.setDate(targetDate.getDate() + 3)
+  const targetDate = useMemo(() => {
+    const date = new Date()
+    date.setDate(date.getDate() + 3)
+    return date
+  }, [])
 
   useEffect(() => {
     const timerInterval = setInterval(() => {

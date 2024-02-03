@@ -5,12 +5,11 @@ import { usePathname } from 'next/navigation'
 
 import { Header } from '../../../../payload/payload-types'
 import { noHeaderFooterUrls } from '../../../constants'
-
 import { Gutter } from '../../Gutter'
+import MobileNav from '../MobileNav'
 import { HeaderNav } from '../Nav'
 
 import classes from './index.module.scss'
-import MobileNav from '../MobileNav'
 
 const HeaderComponent = ({ header }: { header: Header }) => {
   const pathname = usePathname()
