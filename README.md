@@ -24,7 +24,7 @@ Welcome to my Full Stack E-Commerce App with an Admin Dashboard & CMS repository
 
 ## Demo
 
-For a demo of the admin dashboard or any other inquiries, please reach out to me at [your.email@example.com](mailto:your.email@example.com).
+For a demo of the admin dashboard or any other inquiries, please reach out to me at kazitahmid02@gmail.com(mailto:kazitahmid02@gmail.com).
 
 ## License
 
