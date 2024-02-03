@@ -1,8 +1,3 @@
-Full Stack E-Commerce App with an Admin Dashboard & CMS in 2024 | Next 14, Stripe
-Welcome to my Full Stack E-Commerce App with an Admin Dashboard & CMS repository! This project is a comprehensive e-commerce solution built using Next.js, Stripe for payment processing, and various other technologies.
-
-Live Demo: https://e-commerce-demoapp.payloadcms.app/home
-
 Features:
 
 -E-Commerce Functionality: Users can browse through products, add them to a cart, and make purchases seamlessly.
